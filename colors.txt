@@ -1,0 +1,5 @@
+colors
+header background : #81e4ed
+menu background : #e8ebf1
+Lite logo word : #2aacc8
+footer background : #e8ebf1
