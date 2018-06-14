@@ -1,0 +1,60 @@
+/*start navbar*/
+.navbar{
+	height: 100px;
+	background-color: #e8ebf1
+	
+}
+.navbar-brand{
+	font-size: 2em
+}
+.dropdown-menu{
+	border: 0;
+	border-bottom: 4px solid #007bff
+}
+.nav-item:hover{
+	background-color: #fff;
+	color: #007bff;
+	border-top: 4px solid #007bff
+}
+.dropdown-item:hover{
+	background: 0;
+	color: #007bff
+}
+/*end navbar*/
+
+/*start header*/
+header{
+	background-color: #81e4ed;
+	padding: 25px
+}
+/*end header*/
+
+/*start slider*/
+.carousel-indicators{
+	bottom: -30px
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px
+}
+/*end slider*/
+
+/*start middle section*/
+.middle{
+	padding-top: 5%
+}
+.middle .row .col >div{
+	width: 40px;
+	height: 40px;
+	padding: 9px 12px;
+	border-radius: 20px;
+	color: #fff;
+	margin-right: 5%;
+	display:inline;
+	float: left
+}
+.middle h3{
+	display: inline;
+}
+/*end middle section*/
