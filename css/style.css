@@ -1,6 +1,5 @@
 /*start navbar*/
 .navbar{
-	height: 100px;
 	background-color: #e8ebf1
 	
 }
@@ -41,7 +40,7 @@ header{
 /*end slider*/
 
 /*start middle section*/
-.middle .row .col span{
+.middle .row .col-lg-3 span{
 	padding: 5px 10px ;
 	border-radius: 50%;
 	color: #fff;
@@ -56,33 +55,32 @@ header{
 
 /*start latest work*/
 .latest-work .col{
-	transition:all 0.5s ease
+	transition:all 0.5s ease;
+	
 }
 .latest-work img{
-	width: 200px;
-	height: 150px;
+	width: 100%;
+	height: 200px;
 	
 }
 .latest-work h2 span{
 	font-size: 25px;
-	margin-right: 20px;
-	
 }
 .overlay{
 	position: absolute;
 	bottom: 0;
-	width: 70%;
-	height: 40%;
 	z-index: 1;
 	color: #fff;
 	padding: 20px 65px ;
+	width: 90%;
 	display: none;
 	
 }
 .overlay .svg-inline--fa{
-	margin-right: 15px
+	
 }
-.latest-work .col:hover .overlay{
+.latest-work .col-lg-3:hover .overlay
+{
 	display: block
 }
 /*end latest work*/
@@ -140,3 +138,26 @@ footer .col-4{
 	background-color: rgba(57,160,205,1);
 }
 /*end footer*/
+
+/*************************Media Query************************************/
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
